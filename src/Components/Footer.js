@@ -10,9 +10,9 @@ function Footer() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          {/* Pavan MG */}
+          {}
         </a>{" "}
-        {/* with */}
+        {}
         <span className="text-gradient font-medium"> </span> 
         <span className="text-gradient font-medium"> </span>
       </p>

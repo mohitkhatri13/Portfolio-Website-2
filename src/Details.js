@@ -20,10 +20,10 @@ import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
+import projectImage1 from "./assets/projects/tic tac toe image.png";
+import projectImage2 from "./assets/projects/Weatherapp image.png";
+import projectImage3 from "./assets/projects/tourism project.png";
+import projectImage4 from "./assets/projects/Razorpay Ui clone.png";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
@@ -118,41 +118,43 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 export const projectDetails = [
+  
+  
   {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 3",
+    title: "Tourism Project",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `In this Project We just creating a Simple Ui for Selecting a Trip From A Tour Company from 
+    avaiable Trips`,
+    techstack: "HTML,CSS, React.Js",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mohitkhatri13/Tourism-Project.git",
   },
   {
-    title: "Project title 4",
+    title: "Razorpay Clone",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `This is the Ui of the official Razorpay website fully responsive `,
+    techstack: "HTML , Tailwind Css",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mohitkhatri13/Razorpay-Clone.git",
+  },
+  {
+    title: "Weather App",
+    image: projectImage2,
+    description: `A dynamic weather application used Css , Js 
+    incorporating the Geolocation API for real-time location tracking and weather updates. Implemented a user-friendly interface allowing users to either grant permission for live location sharing or input city names for weather forecasts.`,
+    techstack: "HTML  ,CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/mohitkhatri13/weather-app.git",
+  },
+  {
+    title: "Tic Tac Toe",
+    image: projectImage1,
+    description: `This is a popular game since childhood "Tic Tac Toe". using Javascript to implement 
+    game machaenism and user interaction, while css provided customized styling for a visual
+    experience `,
+    techstack: "HTML ,CSS, JavaScript",
+    previewLink: "",
+    githubLink: "https://github.com/mohitkhatri13/Tic-Tac-Toe.git",
   },
   {
     title: "Project title 5",
@@ -163,6 +165,7 @@ project lorem ipsum generator for dummy content`,
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
+  
   {
     title: "Project title 6",
     image: projectImage6,
