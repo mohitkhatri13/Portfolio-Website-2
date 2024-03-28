@@ -156,25 +156,25 @@ export const projectDetails = [
     previewLink: "",
     githubLink: "https://github.com/mohitkhatri13/Tic-Tac-Toe.git",
   },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+//   {
+//     title: "Project title 5",
+//     image: projectImage5,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
   
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+//   {
+//     title: "Project title 6",
+//     image: projectImage6,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
 ];
 
 // Enter your Contact Details here

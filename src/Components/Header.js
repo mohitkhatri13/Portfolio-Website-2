@@ -16,32 +16,32 @@ function Header() {
         <ul className="text-2xl  dark:text-light-content font-medium md:flex  items-center md:space-x-5 md:mr-10 mt-2   ">
 
 
-        <li className="pb-1 md:pb-0  hover:text-white">
+        <li className="pb-1 md:pb-0">
             <NavLink to="/" onClick={toggleClass}>
               Home
             </NavLink>
             <div className="h-1 w-15 bg-red-500 opacity-0 hover:opacity-100 " ></div>
           </li>
 
-          <li className="pb-1 md:pb-0 hover:text-white">
+          <li className="pb-1 md:pb-0 ">
             <NavLink to="/about" onClick={toggleClass}>
               About
             </NavLink>
             <div className="h-1 w-full bg-red-500 opacity-0 hover:opacity-100 " ></div>
           </li>
-          <li className="pb-1 md:pb-0 hover:text-white">
+          <li className="pb-1 md:pb-0">
             <NavLink to="/technologies" onClick={toggleClass}>
               Technologies
             </NavLink>
             <div className="h-1 w-15 bg-red-500 opacity-0 hover:opacity-100 " ></div>
           </li>
-          <li className="pb-1 md:pb-0 hover:text-white">
+          <li className="pb-1 md:pb-0 ">
             <NavLink to="/projects" onClick={toggleClass}>
               Projects
             </NavLink>
             <div className="h-1 w-15 bg-red-500 opacity-0 hover:opacity-100 " ></div>
           </li>
-          <li className="hover:text-white">
+          <li >
             <NavLink to="/contact" onClick={toggleClass}>
               Contact
             </NavLink>
